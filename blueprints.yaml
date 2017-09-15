@@ -1,0 +1,27 @@
+name: Chalk 
+version: 0.1.0
+description: Chalk theme for Grav
+icon: rebel
+author:
+  name: Paul Massendari
+  email: paul@massendari.com
+homepage: https://github.com/paulmassen/grav-theme-chalk
+demo: http://demo.yoursite.com
+keywords: grav, theme, etc
+bugs: https://github.com/paulmassen/grav-theme-chalk/issues
+readme: https://github.com/paulmassen/grav-theme-chalk/blob/develop/README.md
+license: MIT
+
+form:
+  validation: loose
+  fields:
+    theme_color:
+        type: toggle
+        label: Theme Color
+        highlight: 1
+        default: 1
+        options:
+          black: Dark
+          white: Light  
+        validate:
+          type: bool
